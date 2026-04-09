@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Positive - Spectacles pour enfants</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Animation de chargement -->
+    <div class="loader-container" id="loader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="loader-text">
+            <span>ABC</span>
+            <span>Positive</span>
+        </div>
+        <div class="loader-subtext">
+            <span>✨</span> 
+        </div>
+    </div>
+
+    <!-- Contenu principal du site (caché au départ) -->
+    <div class="main-content" id="mainContent">
+        <!-- En-tête et navigation -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <h1>ABC Positive</h1>
+                    <p>Défis - Jeux - Idées</p>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#spectacles">Spectacles</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Section Accueil -->
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <img src="img/banner.jpg" alt="ABC Positive - Spectacles pour enfants" class="hero-image">
+                <h2>La magie du spectacle pour vos enfants</h2>
+                <p>Des animations joyeuses et interactives qui émerveilleront petits et grands</p>
+                <a href="#contact" class="cta-button">Réservez votre spectacle</a>
+            </div>
+        </section>
+
+        <!-- Section Spectacles -->
+        <section id="spectacles" class="spectacles">
+            <h2>Mes Spectacles</h2>
+            <div class="spectacles-grid">
+                <!-- Spectacle 1 : Lutin -->
+                <div class="spectacle-card">
+                    <img src="img/lutin.png" alt="La Lumière Luna du père Noël" class="spectacle-img">
+                    <h3>La Lumière Luna du père Noël</h3>
+                    <p>Un spectacle magique pour les petits avec le père Noël et ses amis lumineux</p>
+                    <ul class="spectacle-details">
+                        <li>🎭 Spectacle pour petits</li>
+                        <li>✨ Magie et émerveillement</li>
+                    </ul>
+                </div>
+
+                <!-- Spectacle 2 : Ehpad -->
+                <div class="spectacle-card">
+                    <img src="img/ephad.png" alt="Spectacle intergénérationnel" class="spectacle-img">
+                    <h3>Spectacle intergénérationnel</h3>
+                    <p>Un conte musical créé avec les résidents d'Ehpad pour les enfants</p>
+                    <ul class="spectacle-details">
+                        <li>🎵 Conte musical</li>
+                        <li>👴👧 Liens intergénérationnels</li>
+                    </ul>
+                </div>
+
+                <!-- Spectacle 3 : Musée -->
+                <div class="spectacle-card">
+                    <img src="img/musée.jpg" alt="Musée Joyeux Mom'Art" class="spectacle-img">
+                    <h3>Musée Joyeux Mom'Art</h3>
+                    <p>Quand le musée s'anime ! Une découverte artistique ludique</p>
+                    <ul class="spectacle-details">
+                        <li>🎨 Découverte de l'art</li>
+                        <li>🏛️ Animation au musée</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section À propos -->
+        <section id="a-propos" class="a-propos">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2>À propos de moi</h2>
+                    <p><strong>Je m'appelle Morgane Hervieu</strong> et je suis animatrice passionnée. Mon objectif est de créer des moments magiques et inoubliables pour les enfants à travers des spectacles joyeux et interactifs.</p>
+                    <p>J'accompagne aussi les résidents en Ehpad dans la création de spectacles pour maintenir le lien avec les enfants. La musique et le partage sont au cœur de mes animations.</p>
+                    <div class="qualities">
+                        <span>🎪 Dynamique</span>
+                        <span>🎭 Créative</span>
+                        <span>❤️ Bienveillante</span>
+                        <span>🎨 Passionnée</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="img/poupée.jpg" alt="Morgane animatrice" class="spectacle-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact">
+            <h2>Contactez-moi</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informations</h3>
+                    <p>📞 06 12 34 56 78</p>
+                    <p>✉️ morganeabcpositive@gmail.com</p>
+                    <p>📍 Bernay, Normandie</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=100089754703983" target="_blank">Facebook</a>
+                        <a href="https://www.instagram.com/abc.positive/" target="_blank">Instagram</a>
+                    </div>
+                </div>
+                <form class="contact-form" action="#" method="post">
+                    <input type="text" placeholder="Votre nom" required>
+                    <input type="email" placeholder="Votre email" required>
+                    <input type="tel" placeholder="Votre téléphone">
+                    <select required>
+                        <option value="">Choisissez un spectacle</option>
+                        <option>La Lumière Luna du père Noël</option>
+                        <option>Spectacle intergénérationnel</option>
+                        <option>Musée Joyeux Mom'Art</option>
+                        <option>Clown rigolo</option>
+                    </select>
+                    <textarea placeholder="Message ou date souhaitée" rows="5" required></textarea>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Pied de page -->
+        <footer>
+            <p>&copy; 2024 ABC Positive - Morgane Hervieu | Spectacles pour enfants et animations</p>
+        </footer>
+    </div>
+
+    <script src="js/loader.js"></script>
+</body>
+</html>
