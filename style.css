@@ -61,7 +61,7 @@ body {
 
 /* Contenu principal caché au début sur la page spectacle */
 .main-content {
-   opacity: 0.1;
+   opacity: 1;
 }
 
 /* ========== HEADER ========== */
